@@ -1,0 +1,30 @@
+/* 네비게이션 바의 스타일 */
+.navbar {
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* 네비게이션 바의 리스트 스타일 */
+  .navbar-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* 네비게이션 바의 아이템 스타일 */
+  .navbar-item {
+    margin: 0 10px;
+  }
+  
+  /* 링크의 스타일 */
+  .navbar-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  

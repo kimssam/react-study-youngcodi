@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.board-app{
+    padding:10px;
+}
+.board-app h1{
+    background-color: black;
+    color:white;
+    padding: 50px;
+    text-align: center;
+    margin:-10px;
+}
+.post-list{
+    margin-top:20px;
+}
+.post-list h2{
+    margin:50px 20px;
+}
+.post-item{
+    border:1px solid gray;
+    padding: 20px;
+    margin:10px;
+    cursor: pointer;
+    border-radius: 5px;;
+}
+.post-item:hover{
+    background-color: lightgray;
+}
+
+/* 상세내용 스타일 */
+.post-detail{
+    border:1px solid gray;
+    margin:10px;
+    border-radius:5px;
+    padding:20px;
+    background-color: rgb(205, 225, 225);
+    text-align: center;
+    line-height: 60px;
+    color:#408080;
+}
+/* 입력 영역 스타일 */
+.input-section{
+    margin: 30px 30px 30px 10px;
+}
+.input-section input, .input-section textarea{
+    width: 100%;
+    padding:10px;
+    border-radius: 7px;
+    border:2px solid rgb(24, 182, 180);
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+.input-section textarea{
+    height: 200px;
+}
+.editBtn, .post-detail .saveBtn{
+    padding:10px;
+    background-color: rgb(60, 164, 164);
+    border:none;
+    border-radius: 7px;
+    color:white;
+    font-size: 1.2em;;
+}
+.post-detail input, .post-detail textarea{
+    padding: 10px;
+    display: block;
+    width: 90%;
+    margin:10px;
+    font-size: 1.2em;;
+}
+.post-detail textarea{
+    height: 200px;
+}
