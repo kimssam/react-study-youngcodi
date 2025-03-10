@@ -1,0 +1,22 @@
+/* NavBar.css */
+.navbar{
+    background-color: bisque;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+    padding:5px;
+}
+.navbar-item{
+    margin:0 10px;
+}
+.navbar-link{
+    text-decoration: none;
+    color:brown;
+}
+.navbar-link:hover{
+    text-decoration:underline; 
+    font-weight: bold;
+}
